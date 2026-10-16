@@ -1,0 +1,417 @@
+{
+  "format": 1,
+  "dev_set": "0b99e5900dcf73cf91297ea202c807a2c196a2d7eee9c7c63aca7d386df265e8",
+  "created": "2026-10-15T23:22:19Z",
+  "harness": {
+    "name": "my-harness",
+    "model_api": "google-cloud/claude-opus-5-5",
+    "tree": "d2bb653c69ddb1d1ba61256d4112a688165eb050831d912291ad3a8886baae60",
+    "files": {
+      ".gitignore": "100644 42d6ecb1e3211e1dd0517ecbc9f7e8ef634547c2",
+      "AGENTS.md": "100644 6ac940191acccc6902d78dfc13b7e6c64b6bfa02",
+      "LICENSE": "100644 261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "README.md": "100644 357cfe9be3ea97a4c2cbf03c7ac9e9972fd5c82f",
+      "harness.py": "100644 135521e3e4792c6cd5e3839dbf3a7a7479f1c83f",
+      "package-lock.json": "100644 5dba6d2880e4966fca650af70db1c7345d14d20b",
+      "package.json": "100644 701346d5e2e0f3fe4eee265d535319c0b8f634c5",
+      "requirements.txt": "100644 7bc03d775075fc452cc88d8aa6292087dd8eec65",
+      "serve.py": "100644 cb63012132ecce820049d3fe171b73ef33ee12fe",
+      "submission.yaml": "100644 c93096ab113910d48a26d034d223fb12f67b428d",
+      "task-tools.ts": "100644 2d10616f87ed8fe336b6466c44098f306c1696b5",
+      "taskbridge.py": "100644 2843566e545f55789189ca367e04809e93494d50"
+    },
+    "commit": "e7df1f49462644a19ba31f5a2f5782481b204a32",
+    "dirty": false
+  },
+  "tasks": {
+    "fire-test-validation-memo": {
+      "run": "maxeff-r1",
+      "trial": "fire-test-validation-memo__maxeff-r1",
+      "ended": "ok",
+      "reward": 0.807692,
+      "tree": "d2bb653c69ddb1d1ba61256d4112a688165eb050831d912291ad3a8886baae60",
+      "files": {
+        "app/files/output/CFDME-2025-041_E119_validation_memo_revA.docx": "566482c9d34ff94bbb65733a4206ecc68191d9bd"
+      },
+      "final_message": "b0cc96753462bf0c2135cc49de2d2a8eb9e101cc",
+      "deleted": [],
+      "skipped": []
+    },
+    "eor-review-corrections": {
+      "run": "maxeff-r1",
+      "trial": "eor-review-corrections__maxeff-r1",
+      "ended": "ok",
+      "reward": 0.210719,
+      "tree": "d2bb653c69ddb1d1ba61256d4112a688165eb050831d912291ad3a8886baae60",
+      "files": {
+        "filesystem/dc_structural__eor_revision__blind/output/submission.zip": "4a8d19861b3f814b5974bee0c466c3341ee3f938"
+      },
+      "final_message": "81c5e142bb57f45ef81a61012af859f512024646",
+      "deleted": [],
+      "skipped": []
+    },
+    "foundation-strategy": {
+      "run": "maxeff-r1",
+      "trial": "foundation-strategy__maxeff-r1",
+      "ended": "ok",
+      "reward": 0.934377,
+      "tree": "d2bb653c69ddb1d1ba61256d4112a688165eb050831d912291ad3a8886baae60",
+      "files": {
+        "filesystem/dc_structural__foundation_strategy__blind/output/submission.zip": "b8633b7ad06e84e68b2cb192e7e06c8d82a2829a"
+      },
+      "final_message": "c2dd4c118872029261fb7b9451b534b0f2e6a4ed",
+      "deleted": [],
+      "skipped": []
+    },
+    "landscape-sheet-revision": {
+      "run": "maxeff-r1",
+      "trial": "landscape-sheet-revision__maxeff-r1",
+      "ended": "ok",
+      "reward": 0.780519,
+      "tree": "d2bb653c69ddb1d1ba61256d4112a688165eb050831d912291ad3a8886baae60",
+      "files": {
+        "app/files/output/DSR_Ph3_L-4_Street_Tree_Memo_to_Callaway_2026-10-31.docx": "bac67ae3a446ec3d5d0e956498886f44fbb14610"
+      },
+      "final_message": "b89a43dbce60ae5b478fb1e20d2229ba5be626c8",
+      "deleted": [],
+      "skipped": []
+    },
+    "landscape-comment-response": {
+      "run": "maxeff-r1",
+      "trial": "landscape-comment-response__maxeff-r1",
+      "ended": "ok",
+      "reward": 1.0,
+      "tree": "d2bb653c69ddb1d1ba61256d4112a688165eb050831d912291ad3a8886baae60",
+      "files": {
+        "filesystem/Correspondence/Client/DSR_Ph3_L-4_Memo_10312026.docx": "c3e934782ebbf9fb7ef113fd23a4673b7c3ab5c8"
+      },
+      "final_message": "f6227c626d5cefede463827a38e3799e9da42104",
+      "deleted": [],
+      "skipped": []
+    },
+    "engineers-estimate-check": {
+      "run": "maxeff-r1",
+      "trial": "engineers-estimate-check__maxeff-r1",
+      "ended": "ok",
+      "reward": 0.543478,
+      "tree": "d2bb653c69ddb1d1ba61256d4112a688165eb050831d912291ad3a8886baae60",
+      "files": {
+        "filesystem/Correspondence/Client/Memo_to_Callaway_2026-10-31.docx": "bed3f446d302e869172727daa6ff8718b782e16e"
+      },
+      "final_message": "54790e64592ec96d0eccf93953a396a72278a3f0",
+      "deleted": [],
+      "skipped": []
+    },
+    "solar-supplemental-review": {
+      "run": "maxeff-r1",
+      "trial": "solar-supplemental-review__maxeff-r1",
+      "ended": "ok",
+      "reward": 0.207792,
+      "tree": "d2bb653c69ddb1d1ba61256d4112a688165eb050831d912291ad3a8886baae60",
+      "files": {
+        "filesystem/Bramwick_Commons_Screen_Memo.docx": "9c52ad45d5145b229a86e58ecd08e34a7eeebeff"
+      },
+      "final_message": "0dcc8e58ae5e8ba6ae6debb514f31474ff477ada",
+      "deleted": [],
+      "skipped": []
+    },
+    "solar-witness-test-package": {
+      "run": "maxeff-r1",
+      "trial": "solar-witness-test-package__maxeff-r1",
+      "ended": "ok",
+      "reward": 0.0,
+      "tree": "d2bb653c69ddb1d1ba61256d4112a688165eb050831d912291ad3a8886baae60",
+      "files": {},
+      "final_message": "639d3e2377beb00a358d3aaaca86f3fd2ed625c7",
+      "deleted": [],
+      "skipped": []
+    },
+    "drawing-record-reconciliation": {
+      "run": "maxeff-r1",
+      "trial": "drawing-record-reconciliation__maxeff-r1",
+      "ended": "ok",
+      "reward": 0.267857,
+      "tree": "d2bb653c69ddb1d1ba61256d4112a688165eb050831d912291ad3a8886baae60",
+      "files": {
+        "filesystem/Line2_Record_Set_Reconciliation.docx": "55ec930e9c4cc90adb6e740f77e529825b769d62"
+      },
+      "final_message": "bb61e51fa88f8bb8d25ced1b96ad15186ca3f052",
+      "deleted": [],
+      "skipped": []
+    },
+    "drive-vendor-support-charges": {
+      "run": "maxeff-r1",
+      "trial": "drive-vendor-support-charges__maxeff-r1",
+      "ended": "ok",
+      "reward": 0.610526,
+      "tree": "d2bb653c69ddb1d1ba61256d4112a688165eb050831d912291ad3a8886baae60",
+      "files": {
+        "filesystem/Projects/Line2_VFD_Upgrade/Commercial/DriveTec_Support_Day_Position.docx": "96b9b1edea35dd0c16a8cc2ebe347afb929b000b"
+      },
+      "final_message": "fab45c2bbb9c6a9e5bfecab5a812689aaa4b2909",
+      "deleted": [],
+      "skipped": []
+    },
+    "tank-shell-thickness-review": {
+      "run": "maxeff-r1",
+      "trial": "tank-shell-thickness-review__maxeff-r1",
+      "ended": "ok",
+      "reward": 0.542857,
+      "tree": "d2bb653c69ddb1d1ba61256d4112a688165eb050831d912291ad3a8886baae60",
+      "files": {
+        "filesystem/T02003_THICKNESS_REVIEW.docx": "ebd5c70f68b0f76095a2f2ba933bb4e7ebdd5de7"
+      },
+      "final_message": "9abbf908d8d86d9cf55067c3de914390867562fa",
+      "deleted": [],
+      "skipped": []
+    },
+    "frame-extension-method": {
+      "run": "maxeff-r1",
+      "trial": "frame-extension-method__maxeff-r1",
+      "ended": "ok",
+      "reward": 0.2429,
+      "tree": "d2bb653c69ddb1d1ba61256d4112a688165eb050831d912291ad3a8886baae60",
+      "files": {
+        "filesystem/field_eng__constructability_4d__blind/output/submission.zip": "8106f4465a2ed9ada1966a544870dbe20852bbb4"
+      },
+      "final_message": "a047244dc1f9db26393c435949d6a2ab08324d0c",
+      "deleted": [],
+      "skipped": []
+    },
+    "deck-haunch-verification": {
+      "run": "maxeff-r1",
+      "trial": "deck-haunch-verification__maxeff-r1",
+      "ended": "ok",
+      "reward": 0.525,
+      "tree": "d2bb653c69ddb1d1ba61256d4112a688165eb050831d912291ad3a8886baae60",
+      "files": {
+        "filesystem/Span2_Haunch_Verification.docx": "ef7ff573a0c6c858f6e90cc56cd657f612f64aa9"
+      },
+      "final_message": "89c18bfdb26d7979ed54fe32a4ff8e1177f2ed88",
+      "deleted": [],
+      "skipped": []
+    },
+    "fire-solve-convergence": {
+      "run": "maxeff-r1",
+      "trial": "fire-solve-convergence__maxeff-r1",
+      "ended": "ok",
+      "reward": 0.635659,
+      "tree": "d2bb653c69ddb1d1ba61256d4112a688165eb050831d912291ad3a8886baae60",
+      "files": {
+        "filesystem/20251009_Falk_runtime_projection_basis.eml": "4941845be371059be61c2c51410de88fd97f2370",
+        "filesystem/CFDME-2025-041_transient_solve_disposition_revA.docx": "f55d599a5fcc87da60d65aa621d9c92467c6e175"
+      },
+      "final_message": "cbdb2a6d4cb7b519ade26efd446e5f0380fe9e3f",
+      "deleted": [],
+      "skipped": []
+    },
+    "les-mesh-resolution": {
+      "run": "maxeff-r1",
+      "trial": "les-mesh-resolution__maxeff-r1",
+      "ended": "ok",
+      "reward": 0.536585,
+      "tree": "d2bb653c69ddb1d1ba61256d4112a688165eb050831d912291ad3a8886baae60",
+      "files": {
+        "filesystem/CFDME-2025-041_resolution_note_revA.docx": "591b8c6d0da8020b6cbcc155ea2b3089bf6bfc6a"
+      },
+      "final_message": "857da60f6ec97bc8859feed93c49be651401f247",
+      "deleted": [],
+      "skipped": []
+    },
+    "tank-fitness-disposition": {
+      "run": "maxeff-r1",
+      "trial": "tank-fitness-disposition__maxeff-r1",
+      "ended": "ok",
+      "reward": 0.298969,
+      "tree": "d2bb653c69ddb1d1ba61256d4112a688165eb050831d912291ad3a8886baae60",
+      "files": {
+        "filesystem/T01002_FFS_DISPOSITION.docx": "f4a5e2ec0252db487d911c516d9cf359e9f38dff"
+      },
+      "final_message": "9f0ebc9b93888fd273596115ae4cb9f5efcf32f7",
+      "deleted": [],
+      "skipped": []
+    },
+    "mv-conveyance-study": {
+      "run": "maxeff-r1",
+      "trial": "mv-conveyance-study__maxeff-r1",
+      "ended": "ok",
+      "reward": 0.166807,
+      "tree": "d2bb653c69ddb1d1ba61256d4112a688165eb050831d912291ad3a8886baae60",
+      "files": {
+        "filesystem/final_batch4__electrical_task12_conveyance_study__blind/output/submission.zip": "66eedecc1a6473d7fa644dee27cc73f069b175e9"
+      },
+      "final_message": "506eaa86d0524d0d2ee3f38bf48e04fb28e2a4cb",
+      "deleted": [],
+      "skipped": []
+    },
+    "data-hall-device-takeoff": {
+      "run": "maxeff-r1",
+      "trial": "data-hall-device-takeoff__maxeff-r1",
+      "ended": "ok",
+      "reward": 0.365974,
+      "tree": "d2bb653c69ddb1d1ba61256d4112a688165eb050831d912291ad3a8886baae60",
+      "files": {
+        "filesystem/final_batch4__electrical_task17_ec_0205_d100__blind/output/submission.zip": "355355e3248ec5d8e50d32b2ec6f9bfccd7c81fd"
+      },
+      "final_message": "4ed1ef96e8182e1c61a66aed229ad7f38cce4459",
+      "deleted": [],
+      "skipped": []
+    },
+    "division-26-specifications": {
+      "run": "maxeff-r1",
+      "trial": "division-26-specifications__maxeff-r1",
+      "ended": "ok",
+      "reward": 0.341085,
+      "tree": "d2bb653c69ddb1d1ba61256d4112a688165eb050831d912291ad3a8886baae60",
+      "files": {
+        "filesystem/final_batch4__electrical_task8_electrical_specs__blind/output/submission.zip": "a603cd1a326e2de036b37e6af8eb04b5aa654d14"
+      },
+      "final_message": "fe35b7bce7c69a0a8ee5a16c14a7089a2d5a27b2",
+      "deleted": [],
+      "skipped": []
+    },
+    "heat-rejection-life-cycle-cost": {
+      "run": "maxeff-r1",
+      "trial": "heat-rejection-life-cycle-cost__maxeff-r1",
+      "ended": "ok",
+      "reward": 0.278954,
+      "tree": "d2bb653c69ddb1d1ba61256d4112a688165eb050831d912291ad3a8886baae60",
+      "files": {
+        "filesystem/final_batch4__mechanical_task3_ct_heat_lcc__blind/output/submission.zip": "19ff4fd8dafa27f36ebd7c9d7b1c21f8634d17b3"
+      },
+      "final_message": "b17d722712e3371a53a46f57efca9606da27a207",
+      "deleted": [],
+      "skipped": []
+    },
+    "cooling-water-flush-plan": {
+      "run": "maxeff-r1",
+      "trial": "cooling-water-flush-plan__maxeff-r1",
+      "ended": "ok",
+      "reward": 0.066638,
+      "tree": "d2bb653c69ddb1d1ba61256d4112a688165eb050831d912291ad3a8886baae60",
+      "files": {
+        "filesystem/final_batch4__mechanical_task5_pcw_flush_mop__blind/output/submission.zip": "572ce7639c6704442dfc8b6bb75cf9ebca7a01c0"
+      },
+      "final_message": "b3c690c72f5aaac4b0ae9837bb91515a9aeaffda",
+      "deleted": [],
+      "skipped": []
+    },
+    "wind-diaphragm-shear": {
+      "run": "maxeff-r1",
+      "trial": "wind-diaphragm-shear__maxeff-r1",
+      "ended": "ok",
+      "reward": 0.229938,
+      "tree": "d2bb653c69ddb1d1ba61256d4112a688165eb050831d912291ad3a8886baae60",
+      "files": {
+        "filesystem/final_batch4__structural_task5_wind_diaphragm_shear__blind/output/submission.zip": "fc348a72d993c76abea36000e14f62fcfbe719e3"
+      },
+      "final_message": "a8469475bff1e38e0d8f60c458cddcb6a27fb9ea",
+      "deleted": [],
+      "skipped": []
+    },
+    "seismic-diaphragm-shear": {
+      "run": "maxeff-r1",
+      "trial": "seismic-diaphragm-shear__maxeff-r1",
+      "ended": "ok",
+      "reward": 0.252249,
+      "tree": "d2bb653c69ddb1d1ba61256d4112a688165eb050831d912291ad3a8886baae60",
+      "files": {
+        "filesystem/final_batch4__structural_task6_seismic_diaphragm_shear__blind/output/submission.zip": "fbf147596db0e9ae51c61303b15ee06c53787198"
+      },
+      "final_message": "977376106312d082a0fe5672afd3870459547bcd",
+      "deleted": [],
+      "skipped": []
+    },
+    "roof-deck-design": {
+      "run": "maxeff-r1",
+      "trial": "roof-deck-design__maxeff-r1",
+      "ended": "ok",
+      "reward": 0.184184,
+      "tree": "d2bb653c69ddb1d1ba61256d4112a688165eb050831d912291ad3a8886baae60",
+      "files": {
+        "filesystem/final_batch4__structural_task7_roof_deck_design__blind/output/submission.zip": "81b70aa03633552ab026e386763da15471586329"
+      },
+      "final_message": "a869f6b479f8685ebc9af3c8cc4f42590acd668d",
+      "deleted": [],
+      "skipped": []
+    },
+    "lv-cable-sizing": {
+      "run": "maxeff-r1",
+      "trial": "lv-cable-sizing__maxeff-r1",
+      "ended": "ok",
+      "reward": 0.731245,
+      "tree": "d2bb653c69ddb1d1ba61256d4112a688165eb050831d912291ad3a8886baae60",
+      "files": {
+        "filesystem/electrical__lv_cable_sizing__blind/output/submission.zip": "b60a25935485d04f6292396457b60aef25cae695"
+      },
+      "final_message": "94826dade70e0a5c7ae6e00dd7ef97fb1baffdb2",
+      "deleted": [],
+      "skipped": []
+    },
+    "data-hall-mep-routing": {
+      "run": "run3b",
+      "trial": "data-hall-mep-routing__BWvHgdU",
+      "ended": "ok",
+      "reward": 0.0,
+      "tree": "d2bb653c69ddb1d1ba61256d4112a688165eb050831d912291ad3a8886baae60",
+      "files": {
+        "app/files/dc_model__hall_seed000_d000__mep_routing/output/solution.py": "413987bee78e1ce97d9f3d620f5f4d403d57396d"
+      },
+      "final_message": "f52e03796e4885d2a31349c67189d2bebeab739b",
+      "deleted": [],
+      "skipped": []
+    },
+    "data-hall-mep-routing-offset": {
+      "run": "run3b",
+      "trial": "data-hall-mep-routing-offset__Lhzq5k2",
+      "ended": "ok",
+      "reward": 0.0,
+      "tree": "d2bb653c69ddb1d1ba61256d4112a688165eb050831d912291ad3a8886baae60",
+      "files": {
+        "app/files/dc_model__hall_seed005_d100__mep_routing/output/solution.py": "1cc103450907d74a7924c2cc8fddbbeefc1005da"
+      },
+      "final_message": "d6b4e2fcef67627e60ae0b2734c41336e380ba1e",
+      "deleted": [],
+      "skipped": []
+    },
+    "data-center-site-model": {
+      "run": "run3b",
+      "trial": "data-center-site-model__TrS75Ym",
+      "ended": "ok",
+      "reward": 1.0,
+      "tree": "d2bb653c69ddb1d1ba61256d4112a688165eb050831d912291ad3a8886baae60",
+      "files": {
+        "app/files/frontier__DCBim__p6_002/submission/model.ifc": "2202c88f1a7eaa59d4762e4def71de0a7fad50b3"
+      },
+      "final_message": "7756b5a6ccd2ecb640c646fc318a184aa850ed20",
+      "deleted": [],
+      "skipped": []
+    },
+    "drilled-shaft-rock-socket": {
+      "run": "run2",
+      "trial": "drilled-shaft-rock-socket__vrLVpbb",
+      "ended": "ok",
+      "reward": 0.876712,
+      "tree": "d2bb653c69ddb1d1ba61256d4112a688165eb050831d912291ad3a8886baae60",
+      "files": {
+        "filesystem/exports/Bent2_Shaft_Determination.docx": "9ba4c5d2d70c207cf584c319869b66237623556c"
+      },
+      "final_message": "9641971b0e78494cc064ffe957d849f7e810c358",
+      "deleted": [],
+      "skipped": []
+    },
+    "inspection-fee-ceiling": {
+      "run": "run2",
+      "trial": "inspection-fee-ceiling__HEqqAHw",
+      "ended": "ok",
+      "reward": 0.486239,
+      "tree": "d2bb653c69ddb1d1ba61256d4112a688165eb050831d912291ad3a8886baae60",
+      "files": {
+        "filesystem/CEI_Fee_Ceiling_Position.docx": "047b553c4d4a89b99a5ada0dc5f23aa0ca513b44"
+      },
+      "final_message": "80f550765cb58622621e5ee11a769d233a84a8f0",
+      "deleted": [],
+      "skipped": []
+    }
+  }
+}
